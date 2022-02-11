@@ -111,16 +111,16 @@ if __name__ == '__main__':
     print("=" * 60)
 
     LOSS_DICT = {'Focal': FocalLoss(), 
-                 'Softmax': nn.CrossEntropyLoss()
-                 'AdaCos' : AdaCos(),
-                 'AdaM_Softmax': AdaM_Softmax() ,
+                 'Softmax': nn.CrossEntropyLoss(),
+                 # 'AdaCos' : AdaCos(),
+                 # 'AdaM_Softmax': AdaM_Softmax() ,
                  'ArcFace' : ArcFace() ,
-                 'ArcNegFace': ArcNegFace(),
-                 'CircleLoss': Circleloss(),
-                 'CurricularFace': CurricularFace(),
-                 'MagFace' :  MagFace(),
-                 'NPCFace' :  MV_Softmax.py(),
-                 'SST_Prototype' SST_Prototype(),
+                 # 'ArcNegFace': ArcNegFace(),
+                 # 'CircleLoss': Circleloss(),
+                 # 'CurricularFace': CurricularFace(),
+                 # 'MagFace' :  MagFace(),
+                 # 'NPCFace' :  MV_Softmax.py(),
+                 # 'SST_Prototype' SST_Prototype(),
                  
                  }
     LOSS = LOSS_DICT[LOSS_NAME]
